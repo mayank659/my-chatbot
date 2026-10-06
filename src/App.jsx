@@ -25,7 +25,7 @@ function App() {
       try {
         /* https://chatbot-backend-hrqf.onrender.com/chat */
 
-        const response = await axios.post('http://127.0.0.1:5000/chat', { message: inputValue });
+        const response = await axios.post('https://chatbot-backend-hrqf.onrender.com/chat', { message: inputValue });
         setSent(prevSent => [...prevSent, { text: response.data.response, sender: 'bot' }]);
       } catch (error) {
         if(error){
