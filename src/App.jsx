@@ -59,6 +59,7 @@ function App() {
         md:w-[90%]
         max-w-full
         min-w-0
+        w-full
         overflow-hidden
         mt-17
         md:mt-5
